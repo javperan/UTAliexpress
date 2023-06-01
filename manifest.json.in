@@ -1,0 +1,15 @@
+{
+    "name": "aliexpress.javierperan",
+    "description": "A simple web-based Aliexpress Client (non-oficial)",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Aliexpress Client",
+    "hooks": {
+        "aliexpress": {
+            "apparmor": "aliexpress.apparmor",
+            "desktop":  "aliexpress.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Javier Perán <javperan.develop@gmail.com>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
